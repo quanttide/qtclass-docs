@@ -1,0 +1,8 @@
+format: jb-book
+root: README.md
+chapters:
+  - file: intro/README.md
+    sections:
+      - file: intro/motivation.md
+      - file: intro/mechanism.md
+      - file: intro/operation.md
