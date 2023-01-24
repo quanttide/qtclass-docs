@@ -1,8 +1,32 @@
 format: jb-book
 root: README.md
-chapters:
-  - file: intro/README.md
-    sections:
-      - file: intro/motivation.md
-      - file: intro/mechanism.md
-      - file: intro/operation.md
+parts:
+  - caption: 简介
+    chapters:
+      - file: intro/README.md
+        sections:
+          - file: intro/motivation.md
+          - file: intro/mechanism.md
+          - file: intro/operation.md
+  - caption: 学习指南
+    chapters:    
+      - file: methods/README.md
+        sections: 
+          - file: methods/ask_questions.md
+      - file: guidelines/README.md
+      - file: schedules/README.md
+        sections:
+          - file: schedules/python.md
+          - file: schedules/django.md
+          - file: schedules/devops/README.md
+            sections:
+              - file: schedules/devops/git.md
+  - caption: 教学指南
+    chapters: 
+      - file: teaching/README.md
+  - caption: 课程研发指南
+    chapters:
+      - file: producing/README.md
+  - caption: 产品公告
+    chapters:
+      - file: release_notes/README.md
