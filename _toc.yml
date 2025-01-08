@@ -8,6 +8,13 @@ parts:
           - file: intro/motivation.md
           - file: intro/mechanism.md
           - file: intro/operation.md
+  - caption: 课程服务
+    chapters:
+      - file: courses/bootcamps/README.md
+        sections:
+          - file: courses/bootcamps/python_bootcamp.md
+          - file: courses/bootcamps/data_analytics_bootcamp.md
+          - file: courses/bootcamps/academic_research_bootcamp.md
   - caption: 学习指南
     chapters:    
       - file: methods/README.md
