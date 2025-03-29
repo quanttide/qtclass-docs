@@ -1,5 +1,5 @@
 format: jb-book
-root: README.md
+root: index.md
 parts:
   - caption: 简介
     chapters:
@@ -28,12 +28,3 @@ parts:
           - file: schedules/devops/README.md
             sections:
               - file: schedules/devops/git.md
-  - caption: 教学指南
-    chapters: 
-      - file: teaching/README.md
-  - caption: 课程研发指南
-    chapters:
-      - file: producing/README.md
-  - caption: 产品公告
-    chapters:
-      - file: release_notes/README.md
